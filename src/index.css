@@ -1,0 +1,119 @@
+/* White mode styles for EventCard */
+.events-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.event-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h2 {
+  color: #333;
+}
+
+.event-card img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.event-card .action-links{
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  transition: transform .5s ease-in-out .3s;
+}
+.action-links a{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 0.8rem;
+  flex-grow: 1;
+}
+.action-links a:hover {
+  transform: scale(1.1);
+}
+.view-event{
+  background-color: #0f160da4!important;
+
+}
+.add-to-calendar{
+  background-color: #a0680791!important;
+}
+/* White mode styles for Navbar */
+.navbar {
+  background-color: #f8f8f8;
+  color: #000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #333;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  padding: 0px;
+}
+
+.navbar ul li {
+  cursor: pointer;
+}
+
+.navbar ul li:hover {
+  color: #555;
+}
+
+/* responsive design */
+@media(min-width:576px){
+  .navbar {
+    justify-content: space-between;
+  }
+  .events-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+#scroll-to-top-btn {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  padding: 4px;
+  background-color: white;
+  columns: black;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 4px;
+  transition: transform 0.5s ease-in-out .3s;
+  visibility: hidden;
+}
+#scroll-to-top-btn img {
+  box-sizing: 20px;
+}
+#scroll-to-top-btn:hover {
+  transform: scale(1.1);
+}
+.show {
+  visibility: visible !important;
+}
