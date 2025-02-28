@@ -4,7 +4,7 @@ Submitted by: **Emile Ndayishimiye**
 
 This web app: **This web application is designed to streamline campus life for students by posting all campus events into a single, easily accessible location. It allows students to quickly view and add events to their personal calendars, ensuring they never miss an important event.**
 
-Time spent: **7** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='/mammoth-events/src/assets/cp1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='src/assets/cp1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
