@@ -2,7 +2,7 @@
 .events-container {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(1fr);
+  grid-template-columns: 100%;
   gap: 1rem;
   padding: 0.5rem;
 }
@@ -25,7 +25,10 @@
   border-radius: 10px;
   width: 100%;
 }
-
+.event-card p {
+  width: 100%;
+  word-wrap: break-word;
+}
 .event-card .action-links{
   width: 100%;
   margin-top: auto;
