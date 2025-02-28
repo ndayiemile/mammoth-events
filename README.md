@@ -38,7 +38,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- While implementing the "scrollToTop" functionality, access the elements using tradition document.getElement* couldn't work. After research on how to resolve the error, I was able to use useRef hook to access DOMElements handle associated events.
 
 ## License
 
